@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+
+        <div class="container px-3 px-lg-5">
+
+            <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+
+                {{ partial "header.html" . }}
+
+                <hr>
+
+                {{ if .Site.Params.summary.enable }}
+                {{ partial "summary.html" . }}
+                {{ end }}
+
+                <hr>
+
+                {{ .Content }}
+
+            </article>
+
+        </div><!--//container-->
+
+        {{ partial "footer.html" . }}
+
+    </div><!--//main-wrapper-->
+
+    {{ partial "scripts.html" . }}
+
+</body>
+
+</html>
