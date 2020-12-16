@@ -4,8 +4,8 @@ title = "cussoncheung.com"
 theme = "devresume-theme"
 
 
-# [Permalinks]
-#     post = "/:filename/"
+[Permalinks]
+    post = "/:filename/"
 
 
 [params]
