@@ -5,6 +5,34 @@
     <link>https://cussoncheung.com/</link>
     <description>Recent content on cussoncheung.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://cussoncheung.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Dec 2020 11:33:05 +0000</lastBuildDate><atom:link href="https://cussoncheung.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First with Netlify CMS</title>
+      <link>https://cussoncheung.com/blog/2020-12-15-first-with-netlify-cms/</link>
+      <pubDate>Tue, 15 Dec 2020 11:33:05 +0000</pubDate>
+      
+      <guid>https://cussoncheung.com/blog/2020-12-15-first-with-netlify-cms/</guid>
+      <description>What can this do? Adding post on netlify cms.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://cussoncheung.com/about/</link>
+      <pubDate>Tue, 15 Dec 2020 02:29:21 -0800</pubDate>
+      
+      <guid>https://cussoncheung.com/about/</guid>
+      <description>this is about page</description>
+    </item>
+    
+    <item>
+      <title>Dog Watcher</title>
+      <link>https://cussoncheung.com/dog-watcher/</link>
+      <pubDate>Tue, 15 Dec 2020 00:25:14 -0800</pubDate>
+      
+      <guid>https://cussoncheung.com/dog-watcher/</guid>
+      <description>part time dog watcher</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://cussoncheung.com/categories/</loc>
-  </url>
-  
-  <url>
+    <loc>https://cussoncheung.com/blog/</loc>
+    <lastmod>2020-12-15T11:33:05+00:00</lastmod>
+  </url><url>
     <loc>https://cussoncheung.com/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2020-12-15T11:33:05+00:00</lastmod>
+  </url><url>
+    <loc>https://cussoncheung.com/blog/2020-12-15-first-with-netlify-cms/</loc>
+    <lastmod>2020-12-15T11:33:05+00:00</lastmod>
+  </url><url>
+    <loc>https://cussoncheung.com/about/</loc>
+    <lastmod>2020-12-15T02:29:21-08:00</lastmod>
+  </url><url>
+    <loc>https://cussoncheung.com/dog-watcher/</loc>
+    <lastmod>2020-12-15T00:25:14-08:00</lastmod>
+  </url><url>
+    <loc>https://cussoncheung.com/post/</loc>
+    <lastmod>2020-12-15T00:25:14-08:00</lastmod>
+  </url><url>
+    <loc>https://cussoncheung.com/categories/</loc>
+  </url><url>
     <loc>https://cussoncheung.com/tags/</loc>
   </url>
-  
 </urlset>
