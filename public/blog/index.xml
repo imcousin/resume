@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on cussoncheung.com</title>
+    <link>https://cussoncheung.com/blog/</link>
+    <description>Recent content in Blogs on cussoncheung.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Dec 2020 11:33:05 +0000</lastBuildDate><atom:link href="https://cussoncheung.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First with Netlify CMS</title>
+      <link>https://cussoncheung.com/blog/2020-12-15-first-with-netlify-cms/</link>
+      <pubDate>Tue, 15 Dec 2020 11:33:05 +0000</pubDate>
+      
+      <guid>https://cussoncheung.com/blog/2020-12-15-first-with-netlify-cms/</guid>
+      <description>What can this do? Adding post on netlify cms.</description>
+    </item>
+    
+  </channel>
+</rss>

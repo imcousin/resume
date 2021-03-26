@@ -45,7 +45,7 @@ theme = "devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Web development professional with over three years experience implementing and supporting interactive web sites and applications."
+        text = "Detailed-oriented and efficient full stack developer with 3 years of experience in Ruby on Rails, eCommerce, Javascript, etc. Seeking to help the bottom line at your business. I am dedicated to constantly improving tools and infrastructure to maximize productivity, minimizing system downtime, and quickly respond to the changing needs of the business."
 
 
     [params.education]
@@ -67,13 +67,21 @@ theme = "devresume-theme"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/React"
+        details = "JavaScript/Node.js/ReactJS"
         [[params.skills.list.items]]
-        details = "Ruby/RoR/PHP"
+        details = "Ruby/Ruby On Rails/PHP"
         [[params.skills.list.items]]
-        details = "Node.js"
+        details = "PostgreSQL/MySQL/Firebase"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Git/GitHub"
+        [[params.skills.list.items]]
+        details = "HTTP & REST API model knowledge"
+        [[params.skills.list.items]]
+        details = "Wordpress/NetlifyCMS"
+        [[params.skills.list.items]]
+        details = "HTML/CSS/SCSS/Bootstrap"
+        [[params.skills.list.items]]
+        details = "Proficient In Adobe Creative Suite"
         [[params.skills.list.items]]
         details = "Object-oriented design"
         [[params.skills.list.items]]
@@ -128,6 +136,8 @@ theme = "devresume-theme"
         name = "Travelling"
         [[params.interests.list]]
         name = "Skiing"
+        [[params.interests.list]]
+        name = "Motorcycle"
 
 
     [params.experience]
@@ -139,37 +149,36 @@ theme = "devresume-theme"
         company = "iPro Group"
         details = "Responsible for the coding, innovative design and layout of websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function."
         [[params.experience.list.items]]
-        details = "Work with operations team to identify, recommend and implement improvements to web-based systems."
+        details = "Completed end to end Ruby on Rails web applications which processed, analyzed, and rendered data visually combined with Devise authentication solution."
         [[params.experience.list.items]]
-        details = "Converted existing Ruby on Rails projects to Docker containers and deployed on AWS ECS."
+        details = "Liaised with back end and front end developers, quality assurance testers as needed."
         [[params.experience.list.items]]
-        details = "Migrated websites to AWS S3 and Cloudfront to consolidated company servers to save resources."
+        details = "Handled time-sensitive updates, including content changes and database advances."
         [[params.experience.list.items]]
-        details = "End to end integration with multiple fully functional Ruby on Rails MVC web appli- cation combined Devise authentication solution. Database used with MYSQL."
+        details = "Used various ideas from distributed computing, real-time data processing, data storage to solve challenging dataset problems."
         [[params.experience.list.items]]
-        details = "Create/maintain javascript puppeteer webscraper that log in to Instagram and grab follwers data."
+        details = "Modify existing softwares to correct errors, upgrade interfaces and strengthen performance."
         [[params.experience.list.items]]
-        details = "Integrate applications with twilio to send sms notification globally."
+        details = "Writing and maintaining extensible code in a team environment."
         [[params.experience.list.items]]
-        details = "Implement AWS lamda function to send slack notification when error/failed alerts is raised on AWS Cloudwatch."
+        details = "Troubleshooting and debugging with existing code base."
         [[params.experience.list.items]]
-        details = "Creates documentation for internal users and new hires on how to use technology, configuration settings, installation processes."
+        details = "Submit documentations for formal review and release for the team."
 
         [[params.experience.list]]
         title = "Web Designer"
         dates = "2010 - 2017"
         company = "iPro Interactive"
-        details = "Responsible for creating the design and layout of Wordpress websites or landing pages. Help with maintainance and additions to websites."
+        details = "Launched, maintained and improved websites on the Wordpress platform."
         [[params.experience.list.items]]
-        details = "Designed, developed, deployed, maintained and updated a variety of Wordpress web sites as assigned."
+        details = "Developed websites from front to backend using PHP, Javascript, CSS, and HTML"
         [[params.experience.list.items]]
-        details = "Specialized in website makeovers, enhancing static websites with current responsive design. Increase interactivity, dynamic elements, and personalization with stylish CSS3 animations and styles to work well across platforms."
+        details = "Enhanced user experience and accomplish webpage objectives by creating site structure, navigation, page optimization, and graphics integration."
         [[params.experience.list.items]]
-        details = "Established Google Analytic routines to track Web service usage and customer satis- faction to improve user bounce rate and drop off points."
+        details = "Implemented enhancements that revamp web functionalities and responsiveness."
         [[params.experience.list.items]]
-        details = "Essential knowledge of Adobe suite, PC and Mac based environments, Microsoft Office Suites."
-        [[params.experience.list.items]]
-        details = "Successfully setup all of iPro Group employees’ PC and Mac computer and network."
+        details = "Implementing HTML email templates and newsletters for marketing campaigns."
+        
 
         # [[params.experience.list]]
         # title = "Senior Software Developer"
@@ -197,7 +206,7 @@ theme = "devresume-theme"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
@@ -213,6 +222,45 @@ theme = "devresume-theme"
         title = "Project Praesent"
         meta = "Open Source"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+    [params.accomplishments]
+        enable = true
+
+        [[params.accomplishments.list]]
+        # title = "Project Lorem Ipsum"
+        # meta = "Open Source"
+        tagline = "Design/maintain Javascript web scraper with puppeteer that logins to Instagram and retrive influencers and followers data statistics."
+
+        [[params.accomplishments.list]]
+        # title = "Project Sed Fringilla"
+        # meta = "Open Source"
+        tagline = "Modernised legacy applications built on Ruby on Rails to Docker containers and deployed on AWS."
+
+        [[params.accomplishments.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        tagline = "Implement alert system to send real-time Slack notifications when application error/failed are raised."
+
+        [[params.accomplishments.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        tagline = "Migrated resources to AWS to consolidate company servers to save costs each month."
+
+        [[params.accomplishments.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        tagline = "Integrated application with Twilio to send sms notification globally."
+
+        [[params.accomplishments.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        tagline = "Established a hands on KPI monitor for iPro Group with Ruby on Rail and Grafana."
+        
+        [[params.accomplishments.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        tagline = "Double new user acquisition from 10-15 users to 20-25 through the implementation of A/B testing focused on online advertising and improving the company's web presence, social media, and search engine optimization."
 
 
     [params.social]
