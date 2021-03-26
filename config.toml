@@ -50,7 +50,10 @@ theme = "devresume-theme"
 
     [params.education]
         enable = true
-
+        [[params.education.list]]
+        degree = "AWS Academy Cloud Architecting"
+        university = "B.C.I.T."
+        dates = "2020 - 2020"
         [[params.education.list]]
         degree = "Software System Developer"
         university = "B.C.I.T."
