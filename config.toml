@@ -209,22 +209,22 @@ theme = "devresume-theme"
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
+        title = "Pointracing.fun"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        tagline = ""
 
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        # [[params.projects.list]]
+        # title = "Project Sed Fringilla"
+        # meta = "Open Source"
+        # tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        # [[params.projects.list]]
+        # title = "Project Praesent"
+        # meta = "Open Source"
+        # tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
 
     [params.accomplishments]
