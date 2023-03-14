@@ -147,8 +147,34 @@ theme = "devresume-theme"
         enable = true
 
         [[params.experience.list]]
+        title = "Application Support Specialist"
+        dates = "2022 - Present"
+        company = "Metis Nation of British Columbia"
+        details = "Maintain MNBC Drupal CMS."
+        [[params.experience.list.items]]
+        details = "Design SharePoint solutions (site layouts, site templates, security protocols, navigation strategies, forms, workflows, user interfaces and information management strategies)."
+        [[params.experience.list.items]]
+        details = "Create and configure document management assets (e.g. site columns, content types, libraries, standards, protocols and policies)."
+        [[params.experience.list.items]]
+        details = "Conducts analysis, design, and implementation of new business processes to meet user requirements and design specifications with PowerApps and Power Automate."
+        [[params.experience.list.items]]
+        details = "Facilitates SharePoint training sessions with end-users to ensure user acceptance and readiness."
+        [[params.experience.list.items]]
+        details = "Functions as subject matter expert on SharePoint/Office 365 on assigned working groups and committees."
+        [[params.experience.list.items]]
+        details = "Create advanced searching capabilities and metadata tagging."
+        [[params.experience.list.items]]
+        details = "Design and develop M365 Power Automate (Flows), PowerApps, Forms, Power BI applications and solutions."
+        [[params.experience.list.items]]
+        details = "Develop and implement solutions using PowerShell including PnP."
+        [[params.experience.list.items]]
+        details = "Support the ongoing operations of MNBC’s SharePoint Online infrastructure."
+        [[params.experience.list.items]]
+        details = "Capture and present metrics using SharePoint dashboards."
+        
+        [[params.experience.list]]
         title = "Associate Full Stack Web Engineer"
-        dates = "2017 - Present"
+        dates = "2017 - 2022"
         company = "iPro Group"
         details = "Responsible for the coding, innovative design and layout of websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function."
         [[params.experience.list.items]]
