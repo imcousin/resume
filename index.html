@@ -3,7 +3,8 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.82.0" />
+    <script async src="https://api.countapi.xyz/hit/cussoncheung.com/a82d7621-1214-4dfb-a2a4-987bc9439c92?callback=websiteVisits"></script>
+    <meta name="generator" content="Hugo 0.82.0" />
 
     
     <title>cussoncheung.com</title>
@@ -471,6 +472,8 @@
             <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
             <br>
             <small class="copyright">2021 &copy; Ported to Hugo by <a href="https://github.com/cowboysmall" target="_blank">CowboySmall</a></small>
+	    <br>
+		<small class="invisible">This site has been visited <span id="visitsCount"></span> times.</small>
         </footer>
 
 
@@ -482,7 +485,11 @@
 
     
 
-
+    <script>
+	    function websiteVisits(response) {
+		    document.querySelector("#visitsCount").textContent = response.value;
+	    }
+    </script>
 </body>
 
 </html>
